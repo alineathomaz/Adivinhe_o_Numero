@@ -6,14 +6,17 @@ html, body
 
 body
 {
-background-image: url("background.jpg");
-background-size: cover;
-background-position: center;
+ background-image: url("background.jpg");
+ background-size: cover;
+ background-position: center;
+ min-height: 100vh;
+ display: grid;
+ place-content: center;
 }
 
 #logo
 {
-    width: 23px;
+    width: 20px;
     opacity:40%
 }
 
@@ -28,6 +31,6 @@ background-position: center;
 
 .container
 {
-    margin-left: 450px;
+    margin-left: auto;
     margin-right: auto;
 }
